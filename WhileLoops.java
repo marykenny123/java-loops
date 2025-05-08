@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 public class WhileLoops {
     public static void main(String[] args) {
-/*
-        // Mary -> he añadido de imprimir el num aleatorio y num de bucles para revisar, dado que el ej no lo pide lo
-        // he dejado comentado
+
+        // Mary -> primeros 2 ejercicios he añadido de imprimir el num aleatorio y num de bucles para revisar
 
         //Escribe un bucle while que genere números aleatorios hasta que salga el número 7. Has de usar la función
         // getRandomNumber
@@ -12,8 +11,8 @@ public class WhileLoops {
         int i =1; //   para mi control
         while (!(random == 7)) {
             random = (getRandomNumber(50));
-            //System.out.println("El número aleatorio es " + random + " y ha corrido el bucle " + i + " veces.");
-            //i++;
+            System.out.println("El número aleatorio es " + random + " y ha corrido el bucle " + i + " veces.");
+            i++;
         }
 
         System.out.println("\n");
@@ -22,18 +21,17 @@ public class WhileLoops {
         // función getRandomNumber
         while (!(random >= 70)) {
             random = (getRandomNumber(150));
-                //System.out.println("El núm aleatorio es " + random + " y ha corrido el bucle " + i + " veces.");
-                //i++;
+                System.out.println("El núm aleatorio es " + random + " y ha corrido el bucle " + i + " veces.");
+                i++;
         }
 
         System.out.println("\n");
-*/
+
         //Escribe un bucle do while que genere un número aleatorio entre 1 y 100. El usuario debe adivinar el número
         // aleatorio y el programa debe seguir solicitando intentos hasta que el usuario adivine correctamente. Después
         // de cada intento, el programa debe indicar si el número ingresado es mayor o menor que el número generado.
         // Has de usar la función getRandomNumber
 
-        int random = 1;
         int userGuess;
         Scanner scanner = new Scanner(System.in);
         System.out.print("P fv teclea tu número entre 1 y 100 y dar a intro.\t");
